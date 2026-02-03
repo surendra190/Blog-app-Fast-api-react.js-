@@ -1,0 +1,75 @@
+# --- Python / FastAPI ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# pipenv / poetry
+/.venv
+poetry.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# dotenv files (may contain secrets)
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Migrations (if you want to ignore generated files; keep if you track them)
+# alembic/versions/
+
+# --- Node / React / Vite ---
+node_modules/
+/.pnp/
+.pnp.js
+
+# production
+dist/
+build/
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite cache
+.vite/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+
+# Optional: lockfiles (uncomment if you don't want to commit lockfiles)
+# package-lock.json
+# yarn.lock
+
