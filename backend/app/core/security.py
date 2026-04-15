@@ -10,7 +10,6 @@ try:
 
     load_dotenv()
 except Exception:
-    # python-dotenv not installed; rely on real environment variables
     pass
 
 from app.database import get_db
